@@ -26,7 +26,11 @@
  justify-content: center;
 }
 
-
+.heading h3 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #333;
+}
 
 .colour1 {
     background-color: blue;
