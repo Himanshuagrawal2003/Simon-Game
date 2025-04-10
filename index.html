@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link  rel="icon" href="logo.png"/>
+    <title>Simon Game</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Simon Game</h1>
+        <h2>Press Any Key to Start Game</h2>
+    </div>
+    <div class="btn-container">
+        <div class="line-1">
+            <div class="box colour1" id="colour1" type="Button"></div>
+            <div class="box colour2" id="colour2" type="Button"></div>
+        </div>
+        <div class="line-2">
+            <div class="box colour3" id="colour3" type="Button"></div>
+            <div class="box colour4" id="colour4" type="Button"></div>
+        </div>
+    </div>
+    <div>
+        <h3>Rules:</h3>
+        <ol>
+            <li>At the start of the game, one of the 4 keys lights up at random, simultaneously emitting the sound associated with that key.</li>
+            <li>It's then the player's turn to press the same key.</li>
+            <li>In the next step, the game lights up the same button again, and then lights up a second, again randomly.</li>
+            <li>The player has to reproduce this light sequence using his memory.</li>
+            <li>And so on... In each round a new key is added to the end of the series and the game becomes progressively more difficult.</li>
+            <li>The game is over as soon as the player makes the first mistake, i.e. presses the wrong key. If the player doesn't make any mistake, the game goes on.</li>
+        </ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

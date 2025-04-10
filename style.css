@@ -1,0 +1,59 @@
+.heading {
+    text-align: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colour1 {
+    background-color: blue;
+}
+
+.colour2 {
+    background-color: yellow;
+}
+
+.colour3 {
+    background-color: red;
+}
+
+.colour4 {
+    background-color: green;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: rgb(245, 183, 152);
+}
+
+@media screen and (max-width: 991px) {
+    .box {
+        height: 120px;
+        width: 120px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    .btn-container {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+}
