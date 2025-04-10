@@ -1,3 +1,6 @@
+*{
+    background-color: #fff;
+}
 .heading {
     text-align: center;
 }
@@ -16,6 +19,14 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+.startbtn{
+  display:grid;
+ justify-content: center;
+}
+
+
 
 .colour1 {
     background-color: blue;
